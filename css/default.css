@@ -1,0 +1,118 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+header,section,footer,nav
+{
+	display: block;
+}
+
+html
+{
+	font-family: cambria, georgia, times, serif;
+	font-size: 17px;
+	line-height: 1.5em;
+	overflow-y: scroll;
+}
+
+p
+{
+	text-indent: 50px;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+	font-family: sans-serif;
+	font-weight: bold;
+}
+
+h1 { font-size: 2.00em; margin-bottom: 0.67em; margin-top: 0.67em; }
+h2 { font-size: 1.50em; margin-bottom: 0.83em; margin-top: 0.83em; }
+h3 { font-size: 1.17em; margin-bottom: 1.00em; margin-top: 1.00em; }
+h4 { font-size: 1.00em; margin-bottom: 1.33em; margin-top: 1.33em; }
+h5 { font-size: 0.83em; margin-bottom: 1.67em; margin-top: 1.67em; }
+h6 { font-size: 0.67em; margin-bottom: 2.33em; margin-top: 2.33em; }
+
+/********** Body & Wrapper **********/
+body
+{
+	background-color: #009fff;
+	color: #000000;
+}
+
+#wrapper
+{
+	background: #ffffff;
+	border: 15px solid #add8e6;
+	margin-bottom: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15px;
+	width: 700px;
+}
+
+/********** Page Header **********/
+header
+{
+	margin: 1em;
+	text-align: center;
+}
+
+#site-title
+{
+	font-family: sans-serif;
+	font-size: 2em;
+	font-weight: bold;
+}
+
+/********** Navigation **********/
+nav
+{
+	clear: both;
+	text-align: center;
+}
+
+nav ul
+{
+	list-style-type: none;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+nav ul li
+{
+	display: inline;
+}
+
+nav ul li a
+{
+	background: #dddddd;
+	color: #666666;
+	margin: 5px;
+	padding: 5px;
+	text-decoration: none;
+	width: 100px;
+}
+
+nav ul li a:hover
+{
+	background: #bbbbbb;
+	color: #000000;
+}
+
+/********** Content **********/
+section#content
+{
+	padding: 1em;
+}
+
+/********** Footer **********/
+footer
+{
+	background: #000000;
+	color: #a9a9a9;
+	padding: 5px;
+	text-align: center;
+}
