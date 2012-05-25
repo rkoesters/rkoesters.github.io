@@ -13,7 +13,7 @@ html
 
 body
 {
-	background: #ffffff;
+	background: #f9f9f9;
 	color: #000000;
 }
 
@@ -32,33 +32,60 @@ h6 { font-size: 0.67em; margin-bottom: 2.33em; margin-top: 2.33em; }
 
 
 /********** Page Header **********/
+header
+{
+	padding: 1em;
+}
 
 /********** Navigation **********/
 nav
 {
 	float: left;
-	width: 10em;
-	padding: 1em;
+	margin: 1em;
+	width: 100px;
 }
 
-nav ul li
+nav li
 {
 	list-style-type: none;
+	margin: 1px;
+}
+
+nav a
+{
+	background: #ffffff;
+	border-radius: 2px;
+	border: 1px solid #bbbbbb;
+	color: #000000;
+	display: block;
+	height: auto;
+	padding: 0.05em 0.5em;
+	text-decoration: none;
+}
+
+nav a:hover
+{
+	background: #f05555;
+	border: 1px solid #cccccc;
+	color: #ffffff;
 }
 
 /********** Content **********/
 #content
 {
+	/*border: 1px solid #777777;*/
+	background: #ffffff;
 	border-radius: 3px;
-	border: 1px solid #777777;
 	box-shadow: 2px 2px 5px #888888;
 	float: left;
+	max-width: 70%;
 	padding: 2em;
-	width: 80%;
 }
 
 /********** Footer **********/
 footer
 {
 	clear: both;
+	color: #aaaaaa;
+	text-align: center;
 }
