@@ -1,13 +1,7 @@
-*
-{
-	margin: 0;
-	padding: 0;
-}
+---
+---
 
-header,section,footer,nav
-{
-	display: block;
-}
+{% include reset.css %}
 
 html
 {
@@ -17,9 +11,10 @@ html
 	overflow-y: scroll;
 }
 
-p
+body
 {
-	text-indent: 50px;
+	background: #ffffff;
+	color: #000000;
 }
 
 h1, h2, h3, h4, h5, h6
@@ -35,84 +30,35 @@ h4 { font-size: 1.00em; margin-bottom: 1.33em; margin-top: 1.33em; }
 h5 { font-size: 0.83em; margin-bottom: 1.67em; margin-top: 1.67em; }
 h6 { font-size: 0.67em; margin-bottom: 2.33em; margin-top: 2.33em; }
 
-/********** Body & Wrapper **********/
-body
-{
-	background-color: #009fff;
-	color: #000000;
-}
-
-#wrapper
-{
-	background: #ffffff;
-	border: 15px solid #add8e6;
-	margin-bottom: 15px;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 15px;
-	width: 700px;
-}
 
 /********** Page Header **********/
-header
-{
-	margin: 1em;
-	text-align: center;
-}
-
-#site-title
-{
-	font-family: sans-serif;
-	font-size: 2em;
-	font-weight: bold;
-}
 
 /********** Navigation **********/
 nav
 {
-	clear: both;
-	text-align: center;
-}
-
-nav ul
-{
-	list-style-type: none;
-	margin-left: auto;
-	margin-right: auto;
+	float: left;
+	width: 10em;
+	padding: 1em;
 }
 
 nav ul li
 {
-	display: inline;
-}
-
-nav ul li a
-{
-	background: #dddddd;
-	color: #666666;
-	margin: 5px;
-	padding: 5px;
-	text-decoration: none;
-	width: 100px;
-}
-
-nav ul li a:hover
-{
-	background: #bbbbbb;
-	color: #000000;
+	list-style-type: none;
 }
 
 /********** Content **********/
-section#content
+#content
 {
-	padding: 1em;
+	border-radius: 3px;
+	border: 1px solid #777777;
+	box-shadow: 2px 2px 5px #888888;
+	float: left;
+	padding: 2em;
+	width: 80%;
 }
 
 /********** Footer **********/
 footer
 {
-	background: #000000;
-	color: #a9a9a9;
-	padding: 5px;
-	text-align: center;
+	clear: both;
 }
