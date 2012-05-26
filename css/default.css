@@ -49,9 +49,9 @@ nav li
 nav a
 {
 	background: #ffffff;
-	border-radius: 2px;
+	border-radius: 3px;
 	border: 1px solid #bbbbbb;
-	color: #000000;
+	color: #777777;
 	display: block;
 	height: auto;
 	padding: 0.05em 0.5em;
@@ -60,9 +60,9 @@ nav a
 
 nav a:hover
 {
-	background: #f05555;
-	border: 1px solid #cccccc;
-	color: #ffffff;
+	background: #22d044;
+	border: 1px solid #333333;
+	color: #000000;
 }
 
 /********** Content **********/
