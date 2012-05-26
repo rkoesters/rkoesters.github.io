@@ -30,6 +30,13 @@ h6 { font-size: 0.67em; margin-bottom: 2.33em; margin-top: 2.33em; }
 header
 {
 	padding: 1em;
+	font-size: 2em;
+}
+
+header p
+{
+	font-size: 0.5em;
+	padding: 0.1em 0 0 2em;
 }
 
 /********** Navigation **********/
