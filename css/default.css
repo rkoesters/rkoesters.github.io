@@ -1,6 +1,6 @@
 html
 {
-	font-family: cambria, georgia, times, serif;
+	font-family: serif;
 	font-size: 17px;
 	line-height: 1.5em;
 	overflow-y: scroll;
@@ -14,7 +14,7 @@ body
 
 h1, h2, h3, h4, h5, h6
 {
-	font-family: sans-serif;
+	font-family: dejavu, freesans, sans-serif;
 	font-weight: bold;
 }
 
