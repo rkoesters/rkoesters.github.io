@@ -91,3 +91,8 @@ footer
 	color: #aaaaaa;
 	text-align: center;
 }
+
+footer a
+{
+	color: #aaaaaa;
+}
