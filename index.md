@@ -8,7 +8,7 @@ mind, and, as it is a personal website, I put very little effort into
 ensuring compatablty with older browsers. If you have not already, I
 suggest getting <a href="https://www.mozilla.org/en-US/firefox/">
 Firefox</a> or <a href="https://www.google.com/chrome"> Chrome</a>
-(preferably <a href="http://www.chromium.org/Home">Chromium</a>).
+(or <a href="http://www.chromium.org/Home">Chromium</a>).
 
 ### Site under construction
 
