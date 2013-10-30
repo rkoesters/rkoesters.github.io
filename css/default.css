@@ -63,14 +63,16 @@ nav a:hover {
 }
 
 /********** Content **********/
-#content {
-	/*border: 1px solid #777777;*/
+#content-wrapper {
 	background: #ffffff;
 	border-radius: 3px;
 	box-shadow: 1px 1px 7px #888888;
 	float: left;
-	max-width: 70%;
-	padding: 2em;
+	max-width: 75%;
+}
+
+#content {
+	margin: 2em;
 }
 
 /********** Footer **********/
