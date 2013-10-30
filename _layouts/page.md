@@ -1,4 +1,4 @@
 ---
-layout: classic
+layout: minimal
 ---
 {{content}}
