@@ -22,5 +22,5 @@ But don't expect them to ever be complete, that's just asking too much.
 (NEW) Themes!
 -------------
 
-This website has more than one theme! You can change your theme
-[here](/theme.html). More themes will be added in the future.
+This website has more than one theme! Well, it has two themes, but more
+will be added in the future. [Click here to change theme](/theme.html).
