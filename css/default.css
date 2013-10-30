@@ -1,18 +1,15 @@
-html
-{
+html {
 	font-family: serif;
 	font-size: 17px;
 	line-height: 1.5em;
 }
 
-body
-{
+body {
 	background: #f9f9f9;
 	color: #000000;
 }
 
-h1, h2, h3, h4, h5, h6
-{
+h1, h2, h3, h4, h5, h6 {
 	font-family: dejavu, freesans, sans-serif;
 	font-weight: bold;
 }
@@ -26,34 +23,29 @@ h6 { font-size: 0.67em; margin-bottom: 2.33em; margin-top: 2.33em; }
 
 
 /********** Page Header **********/
-header
-{
+header {
 	padding: 1em;
 	font-size: 2em;
 }
 
-header p
-{
+header p {
 	font-size: 0.5em;
 	padding: 0.1em 0 0 2em;
 }
 
 /********** Navigation **********/
-nav
-{
+nav {
 	float: left;
 	margin: 1em;
 	width: 100px;
 }
 
-nav li
-{
+nav li {
 	list-style-type: none;
 	margin: 1px;
 }
 
-nav a
-{
+nav a {
 	background: #ffffff;
 	border-radius: 3px;
 	border: 1px solid #bbbbbb;
@@ -64,16 +56,14 @@ nav a
 	text-decoration: none;
 }
 
-nav a:hover
-{
+nav a:hover {
 	background: #00cc00;
 	border: 1px solid #333333;
 	color: #000000;
 }
 
 /********** Content **********/
-#content
-{
+#content {
 	/*border: 1px solid #777777;*/
 	background: #ffffff;
 	border-radius: 3px;
@@ -84,14 +74,12 @@ nav a:hover
 }
 
 /********** Footer **********/
-footer
-{
+footer {
 	clear: both;
 	color: #aaaaaa;
 	text-align: center;
 }
 
-footer a
-{
+footer a {
 	color: #aaaaaa;
 }
