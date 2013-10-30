@@ -1,7 +1,10 @@
 ---
 layout: page
-title: About Me
+title:  About Me
 ---
+
+{{ page.title }}
+================
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tincidunt
 ante at est cursus sed cursus purus condimentum. Pellentesque et justo
@@ -17,7 +20,8 @@ accumsan nunc vel mattis. Nullam volutpat, orci ac dignissim tempus,
 libero augue malesuada tellus, et molestie tellus purus nec purus. Nam
 elit purus, dictum quis scelerisque eu, gravida nec metus.
 
-## Heading
+Heading
+-------
 
 Sed posuere urna eu urna condimentum vitae tempus sapien interdum.
 Aliquam eleifend ligula nec massa elementum eget ultricies sapien

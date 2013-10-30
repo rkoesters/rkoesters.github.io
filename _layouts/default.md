@@ -1,6 +1,5 @@
 ---
 layout: master
+style:  default.css
 ---
-<h1>{{page.title}}</h1>
 {{content}}
-

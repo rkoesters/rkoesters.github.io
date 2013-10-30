@@ -1,6 +1,6 @@
 ---
-layout: master
-title: Home
+layout: page
+title:  Home
 ---
 
 Welcome to my personal web page. This site was programmed with HTML5 in
