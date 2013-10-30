@@ -26,3 +26,8 @@ h6 { font-size: 0.67em; margin-bottom: 2.33em; margin-top: 2.33em; }
 header,section,footer,nav {
 	display: block;
 }
+
+/* Paragraph formatting */
+p + p {
+	text-indent: 2em;
+}
