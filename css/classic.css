@@ -35,23 +35,22 @@ nav ul {
 }
 
 nav li {
-	background: {{ page.lightgrey }};
-	color: {{ page.black }};
 	display: inline;
 	list-style: none;
-	margin: 5px;
-	padding: 0.5em;
-}
-
-nav li:hover {
-	background: {{ page.grey }};
-	color: {{ page.lightgrey }};
 }
 
 nav a {
-	color: inherit;
+	background: {{ page.lightgrey }};
+	color: {{ page.black }};
 	display: inline-block;
+	margin: 5px;
+	padding: 0.5em;
 	text-decoration: none;
+}
+
+nav a:hover {
+	background: {{ page.grey }};
+	color: {{ page.lightgrey }};
 }
 
 /*** Content ***/
