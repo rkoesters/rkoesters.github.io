@@ -1,5 +1,5 @@
 ---
 layout: master
-style:  default.css
+theme:  default
 ---
 {{content}}

@@ -1,5 +1,5 @@
 ---
 layout: master
-style:  classic.css
+theme:  classic
 ---
 {{ content }}
