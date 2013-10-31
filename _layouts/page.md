@@ -1,4 +1,5 @@
 ---
-layout: minimal
+layout: master
+theme:  minimal
 ---
 {{content}}
