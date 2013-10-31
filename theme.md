@@ -1,7 +1,7 @@
 ---
 layout: page
 title:  Theme Picker
-themes: [minimal, classic, business]
+themes: [classic, minimal, business]
 ---
 
 {{ page.title }}
