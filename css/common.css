@@ -31,3 +31,9 @@ header,section,footer,nav {
 p + p {
 	text-indent: 2em;
 }
+
+/* Post formatting */
+#post-date {
+	padding:0 2em 2em 2em;
+	font-size: 0.8em;
+}
