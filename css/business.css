@@ -1,0 +1,77 @@
+---
+black:     "#000000"
+blue:      "#5599FF"
+grey:      "#444444"
+lightblue: "#88CCFF"
+lightgrey: "#DDDDDD"
+white:     "#FFFFFF"
+---
+
+body {
+	background: {{ page.white }};
+}
+
+/*** Header ***/
+header {
+	font-size: 2em;
+	padding: 1em;
+	margin: 1em;
+	text-align: center;
+}
+
+header p {
+	font-size: 0.5em;
+}
+
+/*** Navigation ***/
+nav {
+	background: {{ page.black }};
+	font-family: sans-serif;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+
+nav ul {
+	margin: 0 2em;
+}
+
+nav li {
+	display: inline;
+	font-size: 0.8em;
+	list-style: none;
+	vertical-align: center;
+}
+
+nav a {
+	color: {{ page.white }};
+	display: inline-block;
+	margin: 5px;
+	padding: 0 1em;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: {{ page.lightgrey }};
+}
+
+/*** Content ***/
+#content-wrapper {
+	width: 800px;
+	margin: 0 auto;
+}
+
+#content {
+	margin: 2em;
+}
+
+/*** Footer ***/
+footer {
+	color: {{ page.grey }};
+	text-align: center;
+	font-size: 0.8em;
+}
+
+footer a {
+	color: inherit;
+}
