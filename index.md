@@ -1,6 +1,6 @@
 ---
-layout: page
-title:  Home
+layout: master
+title: Ryan's Website
 ---
 
 Welcome

@@ -2,10 +2,6 @@
 layout: page
 title:  About Me
 ---
-
-{{ page.title }}
-================
-
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tincidunt
 ante at est cursus sed cursus purus condimentum. Pellentesque et justo
 quis erat gravida malesuada. Fusce felis ante, lacinia vitae bibendum
