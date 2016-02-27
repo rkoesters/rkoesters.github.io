@@ -18,9 +18,3 @@ Site under construction
 
 The about page and the blog are still under construction, so be patient.
 But don't expect them to ever be complete, that's just asking too much.
-
-(NEW) Themes!
--------------
-
-This website has more than one theme! Well, it has two themes, but more
-will be added in the future. [Click here to change theme](/theme.html).
