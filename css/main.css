@@ -20,6 +20,12 @@ header,section,footer,nav {
 	display: block;
 }
 
+#site-header, #content-wrapper, #site-footer {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 800px;
+}
+
 /********** Page Header **********/
 #site-header {
 	padding: 1em;
@@ -33,8 +39,10 @@ header,section,footer,nav {
 
 /********** Navigation **********/
 #site-nav {
-	float: left;
-	margin: 1em;
+	margin: 17px;
+	position: absolute;
+	right: 800px;
+	top: 0px;
 	width: 100px;
 }
 
@@ -60,17 +68,31 @@ header,section,footer,nav {
 	color: #000000;
 }
 
+@media (max-width: 1068px) { /* 800 + 2 * (100 + 2 * 17) */
+	#site-nav {
+		position: relative;
+		right: 0px;
+		width: 100%;
+	}
+
+	#site-nav li {
+		display: inline-block;
+	}
+}
 /********** Content **********/
 #content-wrapper {
-	background: #ffffff;
-	border-radius: 3px;
-	box-shadow: 1px 1px 7px #888888;
-	float: left;
-	max-width: 75%;
+	position: relative;
 }
 
 #content {
-	margin: 2em;
+	background: #ffffff;
+	border-radius: 3px;
+	box-shadow: 1px 1px 7px #888888;
+	padding: 2em;
+}
+
+#content :first-child {
+	margin-top: 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
