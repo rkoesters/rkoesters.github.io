@@ -124,12 +124,16 @@ header, section, footer, nav {
 	text-indent: 2em;
 }
 
+#content ul, #content ol {
+	margin: 1em 0;
+}
+
 #content li {
 	margin-left: 2em;
 }
 
 #content #post-header > h1 {
-    margin-bottom: 0;
+	margin-bottom: 0;
 }
 
 #content #post-header > div {
