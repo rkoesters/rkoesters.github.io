@@ -45,8 +45,13 @@ header, section, footer, nav {
 	padding: 17px;
 	position: absolute;
 	right: 800px;
+	text-align: right;
 	top: 0px;
 	width: 120px;
+}
+
+#site-nav ul {
+	display: inline-block;
 }
 
 #site-nav li {
