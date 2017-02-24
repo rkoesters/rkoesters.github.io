@@ -128,8 +128,12 @@ header, section, footer, nav {
 	margin-left: 2em;
 }
 
-#content #post-date {
-	padding:0 2em 2em 2em;
+#content #post-header > h1 {
+    margin-bottom: 0;
+}
+
+#content #post-header > div {
+	margin: 1em;
 	font-size: 0.8em;
 }
 
