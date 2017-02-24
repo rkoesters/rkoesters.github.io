@@ -76,7 +76,7 @@ header, section, footer, nav {
 	color: #000000;
 }
 
-@media (max-width: 1108px) { /* 800 + 2 * (120 + 2 * 17) */
+@media (max-width: 1050px) {
 	#site-header {
 		padding-bottom: 0;
 	}
