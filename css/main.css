@@ -68,6 +68,8 @@ header, section, footer, nav {
 	height: auto;
 	padding: 0.05em 0.5em;
 	text-decoration: none;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	-webkit-tap-highlight-color: transparent;
 }
 
 #site-nav a:hover {
