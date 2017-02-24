@@ -132,6 +132,13 @@ header, section, footer, nav {
 	margin-left: 2em;
 }
 
+#content blockquote {
+	border-left: 3px solid #000000;
+	font-style: italic;
+	padding: 0 1em;
+	margin: 1em 0;
+}
+
 #content #post-header > h1 {
 	margin-bottom: 0;
 }
