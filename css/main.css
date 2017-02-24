@@ -120,12 +120,16 @@ header, section, footer, nav {
 #content h5 { font-size: 0.83em; margin-bottom: 1.67em; margin-top: 1.67em; }
 #content h6 { font-size: 0.67em; margin-bottom: 2.33em; margin-top: 2.33em; }
 
+#content p {
+	margin-bottom: 0.5em;
+}
+
 #content p + p {
 	text-indent: 2em;
 }
 
 #content ul, #content ol {
-	margin: 1em 0;
+	margin: 0.5em 0;
 }
 
 #content li {
