@@ -99,11 +99,11 @@ header, section, footer, nav {
 	padding: 2em;
 }
 
-#content :first-child {
+#content > :first-child, #content > header > :first-child {
 	margin-top: 0;
 }
 
-#content :last-child {
+#content > :last-child {
 	margin-bottom: 0;
 }
 
