@@ -128,6 +128,7 @@ p + p {
 #site-footer {
 	clear: both;
 	color: #aaaaaa;
+	padding: 0.5em;
 	text-align: center;
 }
 
