@@ -46,7 +46,7 @@ header, section, footer, nav {
 	position: absolute;
 	right: 800px;
 	top: 0px;
-	width: 100px;
+	width: 120px;
 }
 
 #site-nav li {
@@ -71,7 +71,7 @@ header, section, footer, nav {
 	color: #000000;
 }
 
-@media (max-width: 1068px) { /* 800 + 2 * (100 + 2 * 17) */
+@media (max-width: 1108px) { /* 800 + 2 * (120 + 2 * 17) */
 	#site-header {
 		padding-bottom: 0;
 	}
