@@ -77,6 +77,8 @@ header,section,footer,nav {
 
 	#site-nav li {
 		display: inline-block;
+		margin-right: 0.5em;
+		margin-bottom: 0.5em;
 	}
 }
 /********** Content **********/
