@@ -39,7 +39,7 @@ header, section, footer, nav {
 
 /********** Navigation **********/
 #site-nav {
-	margin: 17px;
+	padding: 17px;
 	position: absolute;
 	right: 800px;
 	top: 0px;
@@ -74,9 +74,10 @@ header, section, footer, nav {
 	}
 
 	#site-nav {
+		max-width: 800px;
 		position: relative;
 		right: 0px;
-		width: 100%;
+		width: auto;
 	}
 
 	#site-nav li {
