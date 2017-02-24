@@ -16,5 +16,5 @@ suggest getting [Firefox](https://www.mozilla.org/en-US/firefox/) or
 Site under construction
 -----------------------
 
-The about page and the blog are still under construction, so be patient.
-But don't expect them to ever be complete, that's just asking too much.
+The about page is still under construction, so be patient. But don't
+expect it to ever be complete, that's just asking too much.
