@@ -71,7 +71,7 @@ header, section, footer, nav {
 }
 
 #site-nav a:hover {
-	background: #00cc00;
+	background: #ff8800;
 	border: 1px solid #333333;
 	color: #000000;
 }
