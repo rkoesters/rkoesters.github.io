@@ -153,6 +153,16 @@ header, section, footer, nav {
 	margin: 1em 0;
 }
 
+#content hr {
+	margin-bottom: 1em;
+	margin-top: 1em;
+}
+
+#content img, #content iframe {
+	display: block;
+	margin: auto;
+}
+
 #content #post-header > h1 {
 	margin-bottom: 0;
 }
