@@ -39,6 +39,7 @@ header, section, footer, nav {
 
 /********** Navigation **********/
 #site-nav {
+	font-family: Helvetica, sans-serif;
 	padding: 17px;
 	position: absolute;
 	right: 800px;
@@ -109,7 +110,7 @@ header, section, footer, nav {
 }
 
 #content h1, #content h2, #content h3, #content h4, #content h5, #content h6 {
-	font-family: dejavu, freesans, sans-serif;
+	font-family: Helvetica, sans-serif;
 	font-weight: bold;
 }
 
