@@ -170,6 +170,7 @@ header, section, footer, nav {
 	display: block;
 	font-family: monospace;
 	padding: 1em;
+	white-space: pre-wrap;
 }
 
 #content #post-header > h1 {

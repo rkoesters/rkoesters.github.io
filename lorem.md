@@ -125,9 +125,11 @@ nisi. Phasellus et quam interdum, volutpat quam eu, iaculis sapien.
 ```c
 #include <stdio.h>
 
-int main(int argc, char **argv) {
-    printf("hello, world!\n");
-    return 0;
+int main(int argc, char **argv)
+{
+	// This comment is too long and should wrap to the next line. Lets see if it works.
+	printf("hello, world!\n");
+	return 0;
 }
 ```
 
