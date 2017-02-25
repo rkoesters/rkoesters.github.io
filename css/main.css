@@ -166,6 +166,12 @@ header, section, footer, nav {
 	margin: auto;
 }
 
+#content pre {
+	display: block;
+	font-family: monospace;
+	padding: 1em;
+}
+
 #content #post-header > h1 {
 	margin-bottom: 0;
 }
