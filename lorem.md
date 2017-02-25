@@ -28,6 +28,8 @@ aliquam, ligula nisl rhoncus urna, in mollis massa ligula non nisi.
 Nulla luctus et enim fermentum vehicula. Morbi vehicula velit sed odio
 rutrum ullamcorper.
 
+![xkcd tar](https://i.imgur.com/ajiIIq3.png)
+
 Integer aliquet efficitur nisl ac tristique. Pellentesque at velit vitae
 ipsum porttitor condimentum. Donec vitae lobortis dolor. Praesent
 imperdiet neque sit amet euismod faucibus. Quisque bibendum vestibulum
@@ -36,6 +38,8 @@ pretium nisi. Nulla accumsan ac leo at pellentesque. Pellentesque eget
 justo non tellus blandit tincidunt. Praesent interdum dictum hendrerit.
 Duis nec sollicitudin orci, nec consequat augue. Sed vehicula tristique
 lobortis.
+
+---
 
 Heading
 -------
@@ -49,6 +53,10 @@ lectus non venenatis. Praesent hendrerit turpis ultrices tristique
 scelerisque. Curabitur vitae varius lacus.
 
 ### Small Heading
+
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/Xhn7FHHQbVw" frameborder="0"
+allowfullscreen></iframe>
 
 Ut posuere ullamcorper tellus, eu placerat nisi fringilla in. Praesent
 convallis aliquet scelerisque. Proin sodales eleifend neque, eget
