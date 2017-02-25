@@ -163,7 +163,7 @@ header, section, footer, nav {
 
 #content img, #content iframe {
 	display: block;
-	margin: auto;
+	margin: 1em auto;
 }
 
 #content pre {
