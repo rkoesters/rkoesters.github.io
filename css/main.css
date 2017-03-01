@@ -162,13 +162,17 @@ header, section, footer, nav {
 }
 
 #content audio,
-#content iframe,
 #content img,
 #content video {
 	display: block;
 	height: auto;
 	margin: 1em auto;
 	max-width: 100%;
+}
+
+#content iframe {
+	margin: 1em auto;
+	width: 100%;
 }
 
 #content pre {
