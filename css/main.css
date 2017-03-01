@@ -161,9 +161,14 @@ header, section, footer, nav {
 	width: 95%;
 }
 
-#content img, #content iframe {
+#content audio,
+#content iframe,
+#content img,
+#content video {
 	display: block;
+	height: auto;
 	margin: 1em auto;
+	max-width: 100%;
 }
 
 #content pre {
