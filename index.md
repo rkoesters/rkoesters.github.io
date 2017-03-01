@@ -11,7 +11,7 @@ mind, and, as it is a personal website, I put very little effort into
 ensuring compatibility with older browsers. If you have not already, I
 suggest getting [Firefox](https://www.mozilla.org/en-US/firefox/) or
 [Chrome](https://www.google.com/chrome) (or
-[Chromium](http://www.chromium.org/Home)).
+[Chromium](https://www.chromium.org/Home)).
 
 Site under construction
 -----------------------
