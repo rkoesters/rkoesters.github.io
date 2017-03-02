@@ -179,6 +179,7 @@ header, section, footer, nav {
 	display: block;
 	font-family: monospace;
 	font-size: 14px;
+	line-height: 1.25em;
 	padding: 1em;
 	tab-size: 4;
 	white-space: pre-wrap;
