@@ -125,9 +125,9 @@ nisi. Phasellus et quam interdum, volutpat quam eu, iaculis sapien.
 ```c
 #include <stdio.h>
 
+// This line is exactly 80 characters long, trust me on this one. 80 characters.
 int main(int argc, char **argv)
 {
-	// This comment is too long and should wrap to the next line. Lets see if it works.
 	printf("hello, world!\n");
 	return 0;
 }

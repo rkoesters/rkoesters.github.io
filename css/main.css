@@ -178,7 +178,9 @@ header, section, footer, nav {
 #content pre {
 	display: block;
 	font-family: monospace;
+	font-size: 14px;
 	padding: 1em;
+	tab-size: 4;
 	white-space: pre-wrap;
 }
 
