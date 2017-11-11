@@ -8,11 +8,11 @@ My name is Ryan Koesters.
 Education
 ---------
 
-UW-Madison, 2013-2018(ongoing)
+* UW-Madison, 2013-2018(ongoing)
 
 Experiance
 ----------
 
-Blacklight.com
+* Blacklight.com
 
-Anderson + Wanca
+* Anderson + Wanca
