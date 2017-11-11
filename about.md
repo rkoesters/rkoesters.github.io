@@ -10,7 +10,7 @@ Education
 
 * UW-Madison, 2013-2018(ongoing)
 
-Experiance
+Experience
 ----------
 
 * Blacklight.com
