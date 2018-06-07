@@ -27,7 +27,7 @@ header, section, footer, nav {
 }
 
 #site-nav a, #content {
-	box-shadow: 1px 2px 3px #888888;
+	box-shadow: 0 0px 2px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.20);
 }
 
 /********** Page Header **********/
