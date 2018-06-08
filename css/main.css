@@ -141,6 +141,10 @@ header, section, footer, nav {
 #content h5 { font-size: 0.83em; margin-bottom: 1.67em; margin-top: 1.67em; }
 #content h6 { font-size: 0.67em; margin-bottom: 2.33em; margin-top: 2.33em; }
 
+#content h1 a, #content h2 a, #content h3 a, #content h4 a, #content h5 a, #content h6 a {
+	text-decoration: none;
+}
+
 #content p {
 	margin-bottom: 0.5em;
 }
@@ -166,10 +170,8 @@ header, section, footer, nav {
 
 #content hr {
 	border: none;
-	box-shadow: 0 5px 5px -3px #888888;
-	height: 10px;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.20);
 	margin: 1em auto;
-	width: 95%;
 }
 
 #content audio,
