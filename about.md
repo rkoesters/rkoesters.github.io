@@ -17,7 +17,7 @@ Education
 Experience
 ----------
 
-* **Anderson + Wanca**, Software Developer/IT (2014 -- Present)
+* **Anderson + Wanca**, Software Developer/IT (2014 -- 2018)
 
   * Web development for company website and other company run websites.
 
