@@ -39,11 +39,3 @@ Experience
 
   * E-commerce infrastructure integration with online marketplaces like
     Amazon.com
-
-* **Blacklight.com**, Warehouse Worker (Summer 2012, Summer 2013)
-
-  * Moved warehouse inventory to new location.
-
-  * Assembled shelving units for inventory storage and organization.
-
-  * Filled, boxed, and shipped customer orders.
