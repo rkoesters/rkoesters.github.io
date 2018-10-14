@@ -33,7 +33,8 @@ Education
 Experience
 ----------
 
-* **Anderson + Wanca**, Software Developer/IT (2014 -- 2018)
+* **Anderson + Wanca** (class action law firm), Software Developer/IT
+  (2014 -- 2018)
 
   * Web development for company website and other company run websites
 
@@ -47,7 +48,8 @@ Experience
 
   * IT support for coworkers
 
-* **Blacklight.com**, Software Developer (Summer 2013, Summer 2014)
+* **Blacklight.com** (online retailer), Software Developer (Summer 2013,
+  Summer 2014)
 
   * Software development for inventory management
 
