@@ -3,7 +3,9 @@ layout: page
 title:  About Me
 ---
 
-My name is Ryan Koesters.
+My name is Ryan Koesters, and I am a highly motivated and creative
+computer scientist with interest in operating systems, programming
+languages, compilers, servers, networking, libraries, and system tools.
 
 Education
 ---------
@@ -12,7 +14,21 @@ Education
 
   * Bachelor of Science in Computer Sciences
 
-  * Ongoing, graduation expected December 2018
+  * Ongoing, graduation in December 2018
+
+  * Coursework
+
+    * Programming Languages and Compilers
+
+    * Software Engineering
+
+    * Algorithms
+
+    * Operating Systems
+
+    * Machine Organization and Programming
+
+    * Computer Networks
 
 Experience
 ----------
@@ -39,3 +55,15 @@ Experience
 
   * E-commerce infrastructure integration with online marketplaces like
     Amazon.com
+
+Skills
+------
+
+* **Languages:** Go, C, Java, Python, C++, C#, Assembly (x86, MIPS)
+
+* **Applications:** Version Control (git), GitHub, GitLab, Continuous
+  Integration (GitLab-CI, Travis-CI), Hyper-V, QEMU
+
+* **Operating Systems:** Linux, Unix, Windows
+
+* **Databases:** MySQL, MS SQL Server, SQLite, boltdb
