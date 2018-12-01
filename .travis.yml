@@ -5,4 +5,4 @@ install:
 
 script:
   - jekyll build
-  - htmlproofer --check-favicon --check-html --only-4xx _site/
+  - htmlproofer --check-favicon --check-html --enforce-https --only-4xx _site/
