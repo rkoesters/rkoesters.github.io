@@ -16,17 +16,23 @@ body {
 	color: #000000;
 }
 
-header, section, footer, nav {
+header,
+section,
+footer,
+nav {
 	display: block;
 }
 
-#site-header, #content-wrapper, #site-footer {
+#site-header,
+#content-wrapper,
+#site-footer {
 	margin-left: auto;
 	margin-right: auto;
 	max-width: 800px;
 }
 
-#site-nav a, #content {
+#site-nav a,
+#content {
 	box-shadow: 0 0px 2px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.20);
 }
 
@@ -120,15 +126,21 @@ header, section, footer, nav {
 	padding: 2em;
 }
 
-#content > :first-child, #content > header > :first-child {
+#content > *:first-child,
+#content > header > *:first-child {
 	margin-top: 0;
 }
 
-#content > :last-child {
+#content *:last-child {
 	margin-bottom: 0;
 }
 
-#content h1, #content h2, #content h3, #content h4, #content h5, #content h6 {
+#content h1,
+#content h2,
+#content h3,
+#content h4,
+#content h5,
+#content h6 {
 	font-weight: bold;
 }
 
@@ -139,7 +151,12 @@ header, section, footer, nav {
 #content h5 { font-size: 0.83em; margin-bottom: 1.67em; margin-top: 1.67em; }
 #content h6 { font-size: 0.67em; margin-bottom: 2.33em; margin-top: 2.33em; }
 
-#content h1 a, #content h2 a, #content h3 a, #content h4 a, #content h5 a, #content h6 a {
+#content h1 a,
+#content h2 a,
+#content h3 a,
+#content h4 a,
+#content h5 a,
+#content h6 a {
 	text-decoration: none;
 }
 
@@ -151,7 +168,8 @@ header, section, footer, nav {
 	text-indent: 2em;
 }
 
-#content ul, #content ol {
+#content ul,
+#content ol {
 	margin: 0.5em 0;
 }
 
