@@ -1,8 +1,7 @@
 language: ruby
 
 install:
-  - gem install jekyll
-  - gem install html-proofer
+  - gem install jekyll html-proofer
 
 script:
   - jekyll build
