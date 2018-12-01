@@ -3,7 +3,7 @@ layout: page
 title: Projects
 ---
 
-Here is a collection of programming projects that I have worked on in my
+Here is a subset of the programming projects that I have worked on in my
 free time.
 
 ---
@@ -31,9 +31,3 @@ accounts it follows tweets.
 Comic Sticks is a simple xkcd comic viewer written in Go using GTK+ 3.
 
 ![xkcd-gtk screenshot](https://raw.githubusercontent.com/rkoesters/xkcd-gtk/master/screenshots/screenshot-1.png)
-
----
-
-## [xkcd (go package)](https://github.com/rkoesters/xkcd)
-
-Package xkcd implements the xkcd comic API in Go.
