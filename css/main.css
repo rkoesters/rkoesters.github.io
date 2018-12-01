@@ -131,8 +131,14 @@ nav {
 	margin-top: 0;
 }
 
-#content *:last-child {
+#content > *:last-child,
+#content > p > *:last-child {
 	margin-bottom: 0;
+}
+
+#content header {
+	margin-top: 0.67em;
+	margin-bottom: 0.67em;
 }
 
 #content h1,
