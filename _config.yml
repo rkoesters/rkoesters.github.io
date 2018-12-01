@@ -1,4 +1,9 @@
-name:      ryankoesters.com
-encoding:  UTF-8
-exclude:   [README, CNAME]
+encoding: UTF-8
+
+name: ryankoesters.com
+
 permalink: date
+
+exclude:
+  - README
+  - CNAME
