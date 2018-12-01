@@ -8,9 +8,9 @@ end_of_line = lf
 insert_final_newline = true
 trim_trailing_whitespace = true
 
-[*.{md,html,css,js}]
+[*.{md,css,js}]
 indent_style = tab
 
-[*.yml]
+[*.{html,xml,yml}]
 indent_style = space
 indent_size = 2

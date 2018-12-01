@@ -1,46 +1,46 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="UTF-8">
-	<title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.name }}</title>
-	<link href="/favicon.png" rel="icon">
-	<link href="/css/main.css" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
-<body>
-	<div id="site-header">
-		Ryan's Website
-		<p>Work in progess</p>
-	</div>
+  <head>
+    <meta charset="UTF-8">
+    <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.name }}</title>
+    <link href="/favicon.png" rel="icon">
+    <link href="/css/main.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <div id="site-header">
+      Ryan's Website
+      <p>Work in progess</p>
+    </div>
 
-	<div id="content-wrapper">
-		<nav id="site-nav">
-			<ul>
-				<li><a href="/">Home</a></li>
-				<li><a href="/about.html">About</a></li>
-				<li><a href="/projects.html">Projects</a></li>
-				<li><a href="https://github.com/rkoesters">GitHub</a></li>
-				<li><a href="https://www.linkedin.com/in/ryankoesters">LinkedIn</a></li>
-			</ul>
-		</nav>
+    <div id="content-wrapper">
+      <nav id="site-nav">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/about.html">About</a></li>
+          <li><a href="/projects.html">Projects</a></li>
+          <li><a href="https://github.com/rkoesters">GitHub</a></li>
+          <li><a href="https://www.linkedin.com/in/ryankoesters">LinkedIn</a></li>
+        </ul>
+      </nav>
 
-		<article id="content">
-			{{ content }}
-		</article>
-	</div>
+      <article id="content">
+        {{ content }}
+      </article>
+    </div>
 
-	<div id="site-footer">
-		<small>Copyright &copy; 2012-2018 Ryan Koesters.</small>
-		<small>Powered by <a href="https://jekyllrb.com/">Jekyll</a>.</small>
-		<small>Hosted by <a href="https://github.com/">GitHub</a>.</small>
-	</div>
+    <div id="site-footer">
+      <small>Copyright &copy; 2012-2018 Ryan Koesters.</small>
+      <small>Powered by <a href="https://jekyllrb.com/">Jekyll</a>.</small>
+      <small>Hosted by <a href="https://github.com/">GitHub</a>.</small>
+    </div>
 
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-	<script>
-		{% include external.js %}
-		{% include syntax.js %}
-		{% include iframe.js %}
-	</script>
-</body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script>
+      {% include external.js %}
+      {% include syntax.js %}
+      {% include iframe.js %}
+    </script>
+  </body>
 </html>
