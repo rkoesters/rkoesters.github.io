@@ -1,0 +1,10 @@
+language: ruby
+
+install:
+  - gem install jekyll
+  - gem install html-proofer
+
+script:
+  - jekyll doctor
+  - jekyll build
+  - htmlproofer --check-favicon --check-html --only-4xx _site/
