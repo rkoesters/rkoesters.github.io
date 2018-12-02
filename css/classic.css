@@ -38,7 +38,7 @@ nav {
 
 #site-header {
 	border-bottom: none;
-	margin-top: 1em;
+	margin-top: 15px;
 }
 
 #site-nav,
@@ -49,7 +49,7 @@ nav {
 
 #site-footer {
 	border-top: none;
-	margin-bottom: 1em;
+	margin-bottom: 15px;
 }
 
 /********** Page Header **********/
