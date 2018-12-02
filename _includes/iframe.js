@@ -1,4 +1,5 @@
-// Make sure iframes maintain a 16:9 aspect ratio.
+// Make sure iframes (assumed to be videos) maintain a 16:9 aspect
+// ratio.
 function resize_iframes() {
 	$("iframe").each(function() {
 		var w = parseInt($(this).width());
