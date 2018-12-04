@@ -31,3 +31,12 @@ accounts it follows tweets.
 Comic Sticks is a simple xkcd comic viewer written in Go using GTK+ 3.
 
 ![xkcd-gtk screenshot](https://raw.githubusercontent.com/rkoesters/xkcd-gtk/master/screenshots/screenshot-1.png)
+
+---
+
+## [xkcd (go package)](https://github.com/rkoesters/xkcd)
+
+Package xkcd is used by Comic Sticks to access the xkcd API. The main
+benefit of using this package instead of the API directly is to properly
+handle the text encoding (the JSON package in Go's standard library
+expects UTF-8, however xkcd's API delivers ISO8859-1 encoded text).
