@@ -3,9 +3,9 @@ layout: page
 title:  About Me
 ---
 
-My name is Ryan Koesters, and I am a highly motivated and creative
-computer scientist with interest in operating systems, programming
-languages, compilers, servers, networking, libraries, and system tools.
+My name is Ryan Koesters, and I am a computer scientist/software
+engineer with an interest in operating systems, programming languages,
+compilers, servers, networking, libraries, and system tools.
 
 Education
 ---------
