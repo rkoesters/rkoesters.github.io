@@ -61,7 +61,8 @@ Experience
 Skills
 ------
 
-- **Languages:** Go, C, Java, Python, C++, C#, Assembly (x86, MIPS)
+- **Languages:** Go, C, Java, Python, C++, C#, JavaScript, Verilog,
+  Assembly (x86, MIPS)
 
 - **Applications:** Version Control (git), GitHub, GitLab, Continuous
   Integration (GitLab-CI, Travis-CI), Hyper-V, QEMU
