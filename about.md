@@ -18,17 +18,21 @@ Education
 
   - Coursework
 
-    - Programming Languages and Compilers
-
     - Software Engineering
 
     - Algorithms
 
+    - Programming Languages and Compilers
+
     - Operating Systems
+
+    - Computer Networks
+
+    - Cryptography
 
     - Machine Organization and Programming
 
-    - Computer Networks
+    - Computer Architecture
 
 Experience
 ----------
