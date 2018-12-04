@@ -10,11 +10,10 @@ compilers, servers, networking, libraries, and system tools.
 Education
 ---------
 
-- **University of Wisconsin - Madison** (2013 -- 2018)
+- **University of Wisconsin - Madison** (September 2013 -- December
+  2018)
 
   - Bachelor of Science in Computer Sciences
-
-  - Ongoing, graduation in December 2018
 
   - Coursework
 
@@ -38,7 +37,7 @@ Experience
 ----------
 
 - **Anderson + Wanca** (class action law firm), Software Developer/IT
-  (2014 -- 2018)
+  (August 2014 -- August 2018)
 
   - Web development for company website and other company run websites
 
@@ -52,8 +51,8 @@ Experience
 
   - IT support for coworkers
 
-- **Blacklight.com** (online retailer), Software Developer (Summer 2013,
-  Summer 2014)
+- **Blacklight.com** (online retailer), Software Developer (June 2013 --
+  August 2014)
 
   - Software development for inventory management
 
