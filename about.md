@@ -10,62 +10,62 @@ compilers, servers, networking, libraries, and system tools.
 Education
 ---------
 
-* **University of Wisconsin - Madison** (2013 -- 2018)
+- **University of Wisconsin - Madison** (2013 -- 2018)
 
-  * Bachelor of Science in Computer Sciences
+  - Bachelor of Science in Computer Sciences
 
-  * Ongoing, graduation in December 2018
+  - Ongoing, graduation in December 2018
 
-  * Coursework
+  - Coursework
 
-    * Programming Languages and Compilers
+    - Programming Languages and Compilers
 
-    * Software Engineering
+    - Software Engineering
 
-    * Algorithms
+    - Algorithms
 
-    * Operating Systems
+    - Operating Systems
 
-    * Machine Organization and Programming
+    - Machine Organization and Programming
 
-    * Computer Networks
+    - Computer Networks
 
 Experience
 ----------
 
-* **Anderson + Wanca** (class action law firm), Software Developer/IT
+- **Anderson + Wanca** (class action law firm), Software Developer/IT
   (2014 -- 2018)
 
-  * Web development for company website and other company run websites
+  - Web development for company website and other company run websites
 
-  * Development of internal programs for organizing and grouping junk
+  - Development of internal programs for organizing and grouping junk
     faxes for identifying potential court cases
 
-  * Database forensics in the form of analyzing and extracting
+  - Database forensics in the form of analyzing and extracting
     information from data dumps related to the firm’s court cases
 
-  * Office computer and network administration
+  - Office computer and network administration
 
-  * IT support for coworkers
+  - IT support for coworkers
 
-* **Blacklight.com** (online retailer), Software Developer (Summer 2013,
+- **Blacklight.com** (online retailer), Software Developer (Summer 2013,
   Summer 2014)
 
-  * Software development for inventory management
+  - Software development for inventory management
 
-  * Software development for e-commerce website and database
+  - Software development for e-commerce website and database
 
-  * E-commerce infrastructure integration with online marketplaces like
+  - E-commerce infrastructure integration with online marketplaces like
     Amazon.com
 
 Skills
 ------
 
-* **Languages:** Go, C, Java, Python, C++, C#, Assembly (x86, MIPS)
+- **Languages:** Go, C, Java, Python, C++, C#, Assembly (x86, MIPS)
 
-* **Applications:** Version Control (git), GitHub, GitLab, Continuous
+- **Applications:** Version Control (git), GitHub, GitLab, Continuous
   Integration (GitLab-CI, Travis-CI), Hyper-V, QEMU
 
-* **Operating Systems:** Linux, Unix, Windows
+- **Operating Systems:** Linux, Unix, Windows
 
-* **Databases:** MySQL, MS SQL Server, SQLite, boltdb
+- **Databases:** MySQL, MS SQL Server, SQLite, boltdb
