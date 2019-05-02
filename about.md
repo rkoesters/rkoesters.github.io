@@ -36,8 +36,10 @@ Education
 Experience
 ----------
 
-- **Anderson + Wanca** (class action law firm), Software Developer/IT
-  (August 2014 -- August 2018)
+- **Google**, Site Reliability Engineer (April 2019 -- Present)
+
+- **Anderson + Wanca**, Software Developer/IT (August 2014 -- March
+  2019)
 
   - Web development for company website and other company run websites
 
@@ -51,8 +53,7 @@ Experience
 
   - IT support for coworkers
 
-- **Blacklight.com** (online retailer), Software Developer (June 2013 --
-  August 2014)
+- **Blacklight.com**, Software Developer (June 2013 -- August 2014)
 
   - Software development for inventory management
 
