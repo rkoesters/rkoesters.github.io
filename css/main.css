@@ -56,7 +56,7 @@ nav {
 	right: 800px;
 	text-align: right;
 	top: 0px;
-	width: 120px;
+	width: 100px;
 }
 
 #site-nav ul {
@@ -95,7 +95,7 @@ nav {
 	color: #000000;
 }
 
-@media (max-width: 1050px) {
+@media (max-width: 1024px) {
 	#site-header {
 		padding-bottom: 0;
 	}
