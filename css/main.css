@@ -1,10 +1,60 @@
-/********** CSS Reset **********/
+/* CSS Reset */
 * {
 	margin: 0;
 	padding: 0;
 }
 
-/********** General Stuff **********/
+/* Colors */
+:root {
+	--shadow-color-1: rgba(0, 0, 0, 0.12);
+	--shadow-color-2: rgba(0, 0, 0, 0.20);
+	--transparent: rgba(0, 0, 0, 0);
+}
+
+@media not all and (prefers-color-scheme: dark) {
+	:root {
+		--bg-color: #ffffff;
+		--text-color: #000000;
+		--link-color-active: #ff0000;
+		--link-color-visited: #800080;
+		--link-color: #0000ff;
+
+		--border-color: var(--text-color);
+		--button-bg-color-hover: #ff8800;
+		--button-bg-color: var(--bg-color);
+		--button-text-color-hover: var(--text-color);
+		--button-text-color: #555555;
+		--content-bg-color: var(--bg-color);
+		--content-text-color: var(--text-color);
+		--footer-text-color: #aaaaaa;
+		--header-text-color: var(--text-color);
+		--site-bg-color: #f9f9f9;
+		--site-text-color: var(--text-color);
+	}
+}
+@media (prefers-color-scheme: dark) {
+	:root {
+		--bg-color: #000000;
+		--text-color: #ffffff;
+		--link-color-active: #ff6666;
+		--link-color-visited: #dd66dd;
+		--link-color: #6666ff;
+
+		--border-color: var(--text-color);
+		--button-bg-color-hover: #bb5500;
+		--button-bg-color: var(--bg-color);
+		--button-text-color-hover: var(--text-color);
+		--button-text-color: #aaaaaa;
+		--content-bg-color: var(--bg-color);
+		--content-text-color: var(--text-color);
+		--footer-text-color: #555555;
+		--header-text-color: var(--text-color);
+		--site-bg-color: #0e0e0e;
+		--site-text-color: var(--text-color);
+	}
+}
+
+/* General Stuff */
 html {
 	font-family: "Open Sans", sans-serif;
 	font-size: 17px;
@@ -12,8 +62,8 @@ html {
 }
 
 body {
-	background: #f9f9f9;
-	color: #000000;
+	background: var(--site-bg-color);
+	color: var(--site-text-color);
 }
 
 header,
@@ -22,6 +72,10 @@ footer,
 nav {
 	display: block;
 }
+
+a:link { color: var(--link-color); }
+a:visited { color: var(--link-color-visited); }
+a:active { color: var(--link-color-active); }
 
 #site-header,
 #content-wrapper,
@@ -33,10 +87,10 @@ nav {
 
 #site-nav a,
 #content {
-	box-shadow: 0 0px 2px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.20);
+	box-shadow: 0 0px 2px var(--shadow-color-1), 0 2px 2px var(--shadow-color-2);
 }
 
-/********** Page Header **********/
+/* Page Header */
 #site-header {
 	font-family: "Open Sans", sans-serif;
 	font-size: 2em;
@@ -49,7 +103,7 @@ nav {
 	font-size: 0.5em;
 }
 
-/********** Navigation **********/
+/* Navigation */
 #site-nav {
 	padding: 17px;
 	position: absolute;
@@ -77,22 +131,20 @@ nav {
 }
 
 #site-nav a {
-	background: #ffffff;
+	background: var(--button-bg-color);
 	border-radius: 3px;
-	border: 0;
-	color: #777777;
+	color: var(--button-text-color);
 	display: block;
 	height: auto;
 	padding: 0.1em 0.5em;
 	text-decoration: none;
-	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	-webkit-tap-highlight-color: var(--transparent);
 	-webkit-tap-highlight-color: transparent;
 }
 
 #site-nav a:hover {
-	background: #ff8800;
-	border: 0;
-	color: #000000;
+	background: var(--button-bg-color-hover);
+	color: var(--button-text-color-hover);
 }
 
 @media (max-width: 1024px) {
@@ -115,14 +167,15 @@ nav {
 	}
 }
 
-/********** Content **********/
+/* Content */
 #content-wrapper {
 	position: relative;
 }
 
 #content {
-	background: #ffffff;
+	background: var(--content-bg-color);
 	border-radius: 3px;
+	color: var(--context-text-color);
 	padding: 2em;
 }
 
@@ -184,7 +237,7 @@ nav {
 }
 
 #content blockquote {
-	border-left: 3px solid #000000;
+	border-left: 3px solid var(--border-color);
 	font-style: italic;
 	padding: 0 1em;
 	margin: 1em 0;
@@ -192,7 +245,7 @@ nav {
 
 #content hr {
 	border: none;
-	border-bottom: 1px solid rgba(0, 0, 0, 0.20);
+	border-bottom: 1px solid var(--shadow-color-1);
 	margin: 1em auto;
 }
 
@@ -229,14 +282,14 @@ nav {
 	font-size: 0.8em;
 }
 
-/********** Footer **********/
+/* Footer */
 #site-footer {
 	clear: both;
-	color: #aaaaaa;
+	color: var(--footer-text-color);
 	padding: 0.5em;
 	text-align: center;
 }
 
 #site-footer a {
-	color: #aaaaaa;
+	color: var(--footer-text-color);
 }
