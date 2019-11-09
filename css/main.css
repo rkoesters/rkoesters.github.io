@@ -6,8 +6,6 @@
 
 /* Colors */
 :root {
-	--shadow-color-1: rgba(0, 0, 0, 0.12);
-	--shadow-color-2: rgba(0, 0, 0, 0.20);
 	--transparent: rgba(0, 0, 0, 0);
 }
 
@@ -15,9 +13,13 @@
 	:root {
 		--bg-color: #ffffff;
 		--text-color: #000000;
+
 		--link-color-active: #ff0000;
 		--link-color-visited: #800080;
 		--link-color: #0000ff;
+
+		--shadow-color-1: rgba(0, 0, 0, 0.12);
+		--shadow-color-2: rgba(0, 0, 0, 0.20);
 
 		--border-color: var(--text-color);
 		--button-bg-color-hover: #ff8800;
@@ -36,9 +38,13 @@
 	:root {
 		--bg-color: #000000;
 		--text-color: #ffffff;
+
 		--link-color-active: #ff6666;
 		--link-color-visited: #dd66dd;
 		--link-color: #6666ff;
+
+		--shadow-color-1: rgba(255, 255, 255, 0.12);
+		--shadow-color-2: rgba(255, 255, 255, 0.20);
 
 		--border-color: var(--text-color);
 		--button-bg-color-hover: #bb5500;
