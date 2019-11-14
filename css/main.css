@@ -7,6 +7,9 @@
 /* Colors */
 :root {
 	--transparent: rgba(0, 0, 0, 0);
+
+	--shadow-color-1: rgba(0, 0, 0, 0.12);
+	--shadow-color-2: rgba(0, 0, 0, 0.20);
 }
 
 @media not all and (prefers-color-scheme: dark) {
@@ -17,9 +20,6 @@
 		--link-color-active: #ff0000;
 		--link-color-visited: #800080;
 		--link-color: #0000ff;
-
-		--shadow-color-1: rgba(0, 0, 0, 0.12);
-		--shadow-color-2: rgba(0, 0, 0, 0.20);
 
 		--border-color: var(--text-color);
 		--button-bg-color-hover: #ff8800;
@@ -43,9 +43,6 @@
 		--link-color-visited: #dd66dd;
 		--link-color: #6666ff;
 
-		--shadow-color-1: rgba(255, 255, 255, 0.12);
-		--shadow-color-2: rgba(255, 255, 255, 0.20);
-
 		--border-color: var(--text-color);
 		--button-bg-color-hover: #bb5500;
 		--button-bg-color: var(--bg-color);
@@ -55,7 +52,7 @@
 		--content-text-color: var(--text-color);
 		--footer-text-color: #777777;
 		--header-text-color: var(--text-color);
-		--site-bg-color: #0e0e0e;
+		--site-bg-color: #111111;
 		--site-text-color: var(--text-color);
 	}
 }
