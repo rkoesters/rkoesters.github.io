@@ -59,7 +59,7 @@
 
 /* General Stuff */
 html {
-	font-family: "Open Sans", sans-serif;
+	font-family: "Open Sans", Arial, sans-serif;
 	font-size: 17px;
 	line-height: 1.5em;
 }
@@ -95,7 +95,7 @@ a:active { color: var(--link-color-active); }
 
 /* Page Header */
 #site-header {
-	font-family: "Open Sans", sans-serif;
+	font-family: "Open Sans", Arial, sans-serif;
 	font-size: 2em;
 	padding: 1em;
 	text-align: center;
