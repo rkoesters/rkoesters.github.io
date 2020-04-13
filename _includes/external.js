@@ -1,8 +1,9 @@
-$(document).ready(function(){
-	$("a").filter(function(){
-		return this.hostname && this.hostname !== location.hostname;
-	}).attr({
-		rel:    "noopener",
-		target: "_blank"
-	});
-});
+function externalLinks() {
+	for (const a of document.getElementsByTagName('a')) {
+		if (a.hostname && a.hostname !== location.hostname) {
+			a.rel = 'noopener';
+			a.target = '_blank';
+		}
+	}
+}
+window.addEventListener('DOMContentLoaded', externalLinks);
