@@ -4,7 +4,7 @@ install:
   - gem install jekyll html-proofer
 
 script:
-  - jekyll build
+  - jekyll build --verbose --safe
   - >
     htmlproofer
     --check-favicon
