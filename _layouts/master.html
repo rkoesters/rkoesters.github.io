@@ -3,9 +3,14 @@
   <head>
     <meta charset="UTF-8">
     <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.name }}</title>
-    <link href="/favicon.png" rel="icon">
-    <link href="/css/main.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="/favicon.png">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap">
+    <link rel="preload" as="style" href="/css/syntax.css">
+    <noscript>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap">
+      <link rel="stylesheet" href="/css/syntax.css">
+    </noscript>
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>
@@ -37,9 +42,7 @@
     </div>
 
     <script>
-      {% include external.js %}
-      {% include syntax.js %}
-      {% include iframe.js %}
+      {% include script.js %}
     </script>
   </body>
 </html>
