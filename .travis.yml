@@ -5,4 +5,18 @@ install:
 
 script:
   - jekyll build
-  - htmlproofer --check-favicon --check-html --enforce-https --only-4xx _site/
+  - >
+    htmlproofer
+    --check-favicon
+    --check-html
+    --check-img-http
+    --enforce-https
+    --log-level=debug
+    --only-4xx
+    --report-eof-tags
+    --report-invalid-tags
+    --report-mismatched-tags
+    --report-missing-doctype
+    --report-missing-names
+    --report-script-embeds
+    _site/
