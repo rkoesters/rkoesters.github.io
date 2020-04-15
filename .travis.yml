@@ -21,4 +21,4 @@ script:
     --report-missing-names
     --report-script-embeds
     _site/
-  - ./node_modules/eslint/bin/eslint.js _include/*.js
+  - ./node_modules/eslint/bin/eslint.js _includes/*.js
