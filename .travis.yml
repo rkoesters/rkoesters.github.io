@@ -1,7 +1,8 @@
-language: ruby
+language: generic
 
 install:
   - gem install jekyll html-proofer
+  - npm install eslint
 
 script:
   - jekyll build --verbose --safe
@@ -20,3 +21,4 @@ script:
     --report-missing-names
     --report-script-embeds
     _site/
+  - ./node_modules/eslint/bin/eslint.js _include/*.js
