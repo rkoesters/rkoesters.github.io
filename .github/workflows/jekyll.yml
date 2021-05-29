@@ -1,0 +1,20 @@
+---
+
+name: CI
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Set up build dependencies
+        run: |
+          sudo apt-get update -y -q
+          sudo apt-get install -y -q jekyll
+
+      - run: jekyll build --verbose --safe
+      - run: jekyll doctor --safe
