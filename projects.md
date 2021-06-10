@@ -8,6 +8,18 @@ time.
 
 ---
 
+## Comic Sticks (xkcd-gtk)
+
+Comic Sticks is a simple xkcd comic viewer written in Go using GTK+ 3.
+
+![xkcd-gtk screenshot](https://raw.githubusercontent.com/rkoesters/xkcd-gtk/master/screenshots/screenshot-1@2x.png)
+
+- [Check out the code on GitHub](https://github.com/rkoesters/xkcd-gtk)
+- [Download from AppCenter (for elementary OS)](https://appcenter.elementary.io/com.github.rkoesters.xkcd-gtk)
+- [Download from Flathub (for any Linux OS)](https://flathub.org/apps/details/com.github.rkoesters.xkcd-gtk)
+
+---
+
 ## xdg (go package)
 
 Package xdg implements the XDG Specifications (also known as the
@@ -29,18 +41,6 @@ follows tweets.
 
 - [Check out the code on GitHub](https://github.com/rkoesters/trumpet)
 - [Read the documentation on GoDoc](https://godoc.org/github.com/rkoesters/trumpet)
-
----
-
-## Comic Sticks (xkcd-gtk)
-
-Comic Sticks is a simple xkcd comic viewer written in Go using GTK+ 3.
-
-![xkcd-gtk screenshot](https://raw.githubusercontent.com/rkoesters/xkcd-gtk/master/screenshots/screenshot-1.png)
-
-- [Check out the code on GitHub](https://github.com/rkoesters/xkcd-gtk)
-- [Download from AppCenter (for elementary OS)](https://appcenter.elementary.io/com.github.rkoesters.xkcd-gtk)
-- [Download from Flathub (for any Linux OS)](https://flathub.org/apps/details/com.github.rkoesters.xkcd-gtk)
 
 ---
 
