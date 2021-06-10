@@ -27,7 +27,7 @@ function appendToHead(href, rel) {
 }
 
 function onLoaded() {
-	appendToHead("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap", "stylesheet");
+	appendToHead("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap", "stylesheet");
 	appendToHead("/css/syntax.css", "stylesheet");
 	resizeIframes();
 	externalLinks();
