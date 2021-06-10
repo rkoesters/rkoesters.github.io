@@ -27,7 +27,7 @@ Package xdg implements the XDG Specifications (also known as the
 Language.
 
 - [Check out the code on GitHub](https://github.com/rkoesters/xdg)
-- [Read the documentation on GoDoc](https://godoc.org/github.com/rkoesters/xdg)
+- [Read the documentation](https://pkg.go.dev/github.com/rkoesters/xdg)
 
 ---
 
@@ -40,7 +40,7 @@ The default scheduler schedules tweets to go out whenever the accounts it
 follows tweets.
 
 - [Check out the code on GitHub](https://github.com/rkoesters/trumpet)
-- [Read the documentation on GoDoc](https://godoc.org/github.com/rkoesters/trumpet)
+- [Read the documentation](https://pkg.go.dev/github.com/rkoesters/trumpet)
 
 ---
 
@@ -52,4 +52,4 @@ text encoding (the JSON package in Go's standard library expects UTF-8, however
 xkcd's API delivers ISO8859-1 encoded text).
 
 - [Check out the code on GitHub](https://github.com/rkoesters/xkcd)
-- [Read the documentation on GoDoc](https://godoc.org/github.com/rkoesters/xkcd)
+- [Read the documentation](https://pkg.go.dev/github.com/rkoesters/xkcd)
