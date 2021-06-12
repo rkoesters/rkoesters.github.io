@@ -67,7 +67,7 @@ Skills
   (x86, MIPS)
 
 - **Applications:** Version Control (git), GitHub, GitLab, Continuous
-  Integration (GitLab-CI, Travis-CI), Hyper-V, QEMU
+  Integration (GitHub Actions, GitLab-CI, Travis-CI), Hyper-V, QEMU
 
 - **Operating Systems:** Linux, Unix, Windows
 
