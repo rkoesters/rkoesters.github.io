@@ -1,5 +1,5 @@
 ---
-layout: master
+layout: base
 title: Ryan's Website
 ---
 
