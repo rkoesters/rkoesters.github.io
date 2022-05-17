@@ -12,7 +12,7 @@ time.
 
 Comic Sticks is a simple xkcd comic viewer written in Go using GTK+ 3.
 
-![xkcd-gtk screenshot](https://raw.githubusercontent.com/rkoesters/xkcd-gtk/master/screenshots/screenshot-1@2x.png)
+![xkcd-gtk screenshot](https://raw.githubusercontent.com/rkoesters/xkcd-gtk/main/screenshots/screenshot-1@2x.png)
 
 - [Check out the code on GitHub](https://github.com/rkoesters/xkcd-gtk)
 - [Download from AppCenter (for elementary OS)](https://appcenter.elementary.io/com.github.rkoesters.xkcd-gtk)
