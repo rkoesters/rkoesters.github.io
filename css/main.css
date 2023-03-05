@@ -253,7 +253,7 @@ a:active { color: var(--link-color-active); }
 }
 
 #content audio,
-#content img,
+#content p > img,
 #content video {
 	display: block;
 	height: auto;
