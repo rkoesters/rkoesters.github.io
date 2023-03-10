@@ -20,7 +20,7 @@ Comic Sticks is a simple xkcd comic viewer written in Go using GTK+ 3.
 
 ![xkcd-gtk screenshot](https://raw.githubusercontent.com/rkoesters/xkcd-gtk/main/screenshots/screenshot-1@2x.png)
 
-- [Check out the code on GitHub](https://github.com/rkoesters/xkcd-gtk)
+- [Check out the code on GitHub ![CI](https://github.com/rkoesters/xkcd-gtk/actions/workflows/ci.yml/badge.svg)](https://github.com/rkoesters/xkcd-gtk)
 - [Download from AppCenter (for elementary OS)](https://appcenter.elementary.io/com.github.rkoesters.xkcd-gtk)
 - [Download from Flathub (for any Linux OS)](https://flathub.org/apps/details/com.github.rkoesters.xkcd-gtk)
 
@@ -38,7 +38,7 @@ Package xdg implements the XDG Specifications (also known as the
 [freedesktop.org](https://www.freedesktop.org/) specs) in The Go Programming
 Language.
 
-- [Check out the code on GitHub](https://github.com/rkoesters/xdg)
+- [Check out the code on GitHub ![CI](https://github.com/rkoesters/xdg/actions/workflows/go.yml/badge.svg)](https://github.com/rkoesters/xdg)
 - [Read the documentation](https://pkg.go.dev/github.com/rkoesters/xdg)
 
 ---
@@ -74,5 +74,5 @@ of using this package instead of the API directly is to properly handle the
 text encoding (the JSON package in Go's standard library expects UTF-8, however
 xkcd's API delivers ISO8859-1 encoded text).
 
-- [Check out the code on GitHub](https://github.com/rkoesters/xkcd)
+- [Check out the code on GitHub ![CI](https://github.com/rkoesters/xkcd/actions/workflows/go.yml/badge.svg)](https://github.com/rkoesters/xkcd)
 - [Read the documentation](https://pkg.go.dev/github.com/rkoesters/xkcd)
