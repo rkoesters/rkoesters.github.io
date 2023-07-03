@@ -1,5 +1,6 @@
 ---
-layout: base
+layout: page
+title_to_header: false
 title: Ryan's Website
 ---
 
