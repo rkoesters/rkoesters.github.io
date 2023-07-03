@@ -17,11 +17,11 @@ compatibility with older browsers. If you don't already, I suggest using
 About Me
 --------
 
-My name is Ryan Koesters, you can learn more about me on my [about
-page](/about.html).
+My name is Ryan Koesters, you can learn more about me on my [about page]({% link
+about.md %}).
 
 My Projects
 -----------
 
 I have made several of my personal projects available online, check out my
-[projects page](/projects.html) for summaries and links.
+[projects page]({% link projects.md %}) for summaries and links.
