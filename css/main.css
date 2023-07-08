@@ -11,9 +11,14 @@
 	--shadow-color-1: rgba(0, 0, 0, 0.12);
 	--shadow-color-2: rgba(0, 0, 0, 0.20);
 
+	--bg-color: var(--pseudo-white);
+	--text-color: var(--pseudo-black);;
+
 	--button-bg-color: var(--bg-color);
 	--button-border-color: color-mix(in srgb, var(--button-text-color) 25%, transparent);
+	--button-bg-color-active: color-mix(in srgb, var(--button-bg-color-hover), var(--pseudo-black) 20%);
 	--button-text-color-hover: var(--text-color);
+	--button-text-color-active: var(--text-color);
 	--content-bg-color: var(--bg-color);
 	--content-text-color: var(--text-color);
 	--header-text-color: var(--text-color);
@@ -22,8 +27,8 @@
 
 @media not all and (prefers-color-scheme: dark) {
 	:root {
-		--bg-color: #ffffff;
-		--text-color: #000000;
+		--pseudo-white: #ffffff;
+		--pseudo-black: #000000;
 
 		--link-color-active: #ff0000;
 		--link-color-visited: #800080;
@@ -37,8 +42,8 @@
 }
 @media (prefers-color-scheme: dark) {
 	:root {
-		--bg-color: #000000;
-		--text-color: #ffffff;
+		--pseudo-white: #000000;
+		--pseudo-black: #ffffff;
 
 		--link-color-active: #ff6666;
 		--link-color-visited: #dd66dd;
@@ -92,6 +97,12 @@ button:hover,
 a.button:hover {
 	background: var(--button-bg-color-hover);
 	color: var(--button-text-color-hover);
+}
+
+button:active,
+a.button:active {
+	background: var(--button-bg-color-active);
+	color: var(--button-text-color-active);
 }
 
 .dot-separated > ::after { content: " • " }
