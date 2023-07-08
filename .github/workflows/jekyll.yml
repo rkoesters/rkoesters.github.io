@@ -14,7 +14,20 @@ jobs:
       - name: Set up build dependencies
         run: |
           sudo apt-get update -y -q
-          sudo apt-get install -y -q jekyll
+          sudo apt-get install -y -q jekyll ruby-html-proofer
 
-      - run: jekyll build --verbose --safe
-      - run: jekyll doctor --safe
+      - name: Run jekyll build
+        run: jekyll build --verbose --safe
+
+      - name: Run jekyll doctor
+        run: jekyll doctor --safe
+
+      - name: Run htmlproofer
+        run: htmlproofer \
+          --check-favicon \
+          --check-html \
+          --check-img-http \
+          --check-opengraph \
+          --enforce-https \
+          --only-4xx \
+          _site/
