@@ -194,7 +194,8 @@ a.button:hover {
 }
 
 #content audio,
-#content img,
+#content p > img,
+#content p > a > img,
 #content video {
 	display: block;
 	height: auto;
