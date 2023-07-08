@@ -56,7 +56,7 @@
 
 /* General Stuff */
 html {
-	font-family: "Open Sans", Arial, sans-serif;
+	font-family: Inter, Roboto, 'Helvetica Neue', 'Arial Nova', 'Nimbus Sans', Arial, sans-serif;
 	font-size: 17px;
 	line-height: 1.5em;
 }
@@ -122,14 +122,14 @@ a.button:active {
 
 /* Page Header */
 #site-header {
-	font-family: "Open Sans", Arial, sans-serif;
+	font-family: Inter, Roboto, 'Helvetica Neue', 'Arial Nova', 'Nimbus Sans', Arial, sans-serif;
 	font-size: 2em;
 	padding: 1em;
 	text-align: center;
 }
 
 #site-header p {
-	font-family: serif;
+	font-family: Charter, 'Bitstream Charter', 'Sitka Text', Cambria, serif;
 	font-size: 0.5em;
 }
 
