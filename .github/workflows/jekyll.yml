@@ -23,11 +23,12 @@ jobs:
         run: jekyll doctor --safe
 
       - name: Run htmlproofer
-        run: htmlproofer \
-          --check-favicon \
-          --check-html \
-          --check-img-http \
-          --check-opengraph \
-          --enforce-https \
-          --only-4xx \
-          _site/
+        run: |
+          htmlproofer \
+            --check-favicon \
+            --check-html \
+            --check-img-http \
+            --check-opengraph \
+            --enforce-https \
+            --only-4xx \
+            _site/
