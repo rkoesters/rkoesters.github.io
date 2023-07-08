@@ -134,3 +134,12 @@ semper eros maximus commodo. Integer sit amet mi pellentesque, commodo leo et,
 blandit leo. In placerat elit enim, non condimentum dui sollicitudin a.
 Phasellus efficitur tellus eu ante scelerisque sagittis. Curabitur luctus justo
 sit amet mollis ullamcorper.
+
+Buttons
+-------
+
+<a href="https://github.com/rkoesters" class="button">GitHub</a>
+
+<a href="https://mastodon.social/@rkoesters" class="button">Mastodon</a>
+
+<a href="https://www.linkedin.com/in/ryankoesters" class="button">LinkedIn</a>

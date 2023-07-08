@@ -25,6 +25,26 @@ nav {
 	display: block;
 }
 
+button,
+a.button {
+	background: #dddddd;
+	border: 0;
+	color: #000000;
+	display: block;
+	height: auto;
+	padding: 0.3em 0.5em;
+	text-decoration: none;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	-webkit-tap-highlight-color: transparent;
+}
+
+button:hover,
+a.button:hover {
+	background: #444444;
+	border: 0;
+	color: #dddddd;
+}
+
 #site-header,
 #content-wrapper,
 #site-footer {
@@ -87,24 +107,6 @@ nav {
 
 #site-nav li:last-child {
 	margin-bottom: 0;
-}
-
-#site-nav a {
-	background: #dddddd;
-	border: 0;
-	color: #000000;
-	display: block;
-	height: auto;
-	padding: 0.3em 0.5em;
-	text-decoration: none;
-	-webkit-tap-highlight-color: rgba(0,0,0,0);
-	-webkit-tap-highlight-color: transparent;
-}
-
-#site-nav a:hover {
-	background: #444444;
-	border: 0;
-	color: #dddddd;
 }
 
 /********** Content **********/

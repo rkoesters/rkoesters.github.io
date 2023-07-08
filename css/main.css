@@ -10,6 +10,14 @@
 
 	--shadow-color-1: rgba(0, 0, 0, 0.12);
 	--shadow-color-2: rgba(0, 0, 0, 0.20);
+
+	--button-bg-color: var(--bg-color);
+	--button-border-color: color-mix(in srgb, var(--button-text-color) 25%, transparent);
+	--button-text-color-hover: var(--text-color);
+	--content-bg-color: var(--bg-color);
+	--content-text-color: var(--text-color);
+	--header-text-color: var(--text-color);
+	--site-text-color: var(--text-color);
 }
 
 @media not all and (prefers-color-scheme: dark) {
@@ -21,17 +29,10 @@
 		--link-color-visited: #800080;
 		--link-color: #0000ff;
 
-		--border-color: var(--text-color);
 		--button-bg-color-hover: #ff8800;
-		--button-bg-color: var(--bg-color);
-		--button-text-color-hover: var(--text-color);
 		--button-text-color: #555555;
-		--content-bg-color: var(--bg-color);
-		--content-text-color: var(--text-color);
 		--footer-text-color: #888888;
-		--header-text-color: var(--text-color);
 		--site-bg-color: #f9f9f9;
-		--site-text-color: var(--text-color);
 	}
 }
 @media (prefers-color-scheme: dark) {
@@ -43,17 +44,10 @@
 		--link-color-visited: #dd66dd;
 		--link-color: #6666ff;
 
-		--border-color: var(--text-color);
 		--button-bg-color-hover: #bb5500;
-		--button-bg-color: var(--bg-color);
-		--button-text-color-hover: var(--text-color);
 		--button-text-color: #aaaaaa;
-		--content-bg-color: var(--bg-color);
-		--content-text-color: var(--text-color);
 		--footer-text-color: #777777;
-		--header-text-color: var(--text-color);
 		--site-bg-color: #111111;
-		--site-text-color: var(--text-color);
 	}
 }
 
@@ -79,6 +73,26 @@ nav {
 a:link { color: var(--link-color); }
 a:visited { color: var(--link-color-visited); }
 a:active { color: var(--link-color-active); }
+
+button,
+a.button {
+	background: var(--button-bg-color);
+	border: 1px solid var(--button-border-color);
+	border-radius: 3px;
+	color: var(--button-text-color);
+	display: block;
+	height: auto;
+	padding: 0.1em 0.5em;
+	text-decoration: none;
+	-webkit-tap-highlight-color: var(--transparent);
+	-webkit-tap-highlight-color: transparent;
+}
+
+button:hover,
+a.button:hover {
+	background: var(--button-bg-color-hover);
+	color: var(--button-text-color-hover);
+}
 
 #site-header,
 #content-wrapper,
@@ -131,23 +145,6 @@ a:active { color: var(--link-color-active); }
 
 #site-nav li:last-child {
 	margin-bottom: 0;
-}
-
-#site-nav a {
-	background: var(--button-bg-color);
-	border-radius: 3px;
-	color: var(--button-text-color);
-	display: block;
-	height: auto;
-	padding: 0.1em 0.5em;
-	text-decoration: none;
-	-webkit-tap-highlight-color: var(--transparent);
-	-webkit-tap-highlight-color: transparent;
-}
-
-#site-nav a:hover {
-	background: var(--button-bg-color-hover);
-	color: var(--button-text-color-hover);
 }
 
 @media (max-width: 1024px) {
@@ -240,7 +237,7 @@ a:active { color: var(--link-color-active); }
 }
 
 #content blockquote {
-	border-left: 3px solid var(--border-color);
+	border-left: 3px solid var(--text-color);
 	font-style: italic;
 	padding: 0 1em;
 	margin: 1em 0;
