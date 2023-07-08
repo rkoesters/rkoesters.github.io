@@ -138,10 +138,10 @@ sit amet mollis ullamcorper.
 Buttons
 -------
 
-<a href="#" class="button">Button</a>
-<a href="#" class="button">Button</a>
-<a href="#" class="button">Button</a>
+<a href="#buttons" class="button">Button</a>
+<a href="#buttons" class="button">Button</a>
+<a href="#buttons" class="button">Button</a>
 
-* <a href="#" class="button">Button</a>
-* <a href="#" class="button">Button</a>
-* <a href="#" class="button">Button</a>
+* <a href="#buttons" class="button">Button</a>
+* <a href="#buttons" class="button">Button</a>
+* <a href="#buttons" class="button">Button</a>
