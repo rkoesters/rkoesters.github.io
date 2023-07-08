@@ -32,5 +32,4 @@ function onLoaded() {
 	resizeIframes();
 	externalLinks();
 }
-
 window.addEventListener("DOMContentLoaded", onLoaded);
