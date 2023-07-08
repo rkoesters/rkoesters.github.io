@@ -295,6 +295,10 @@ a.button:hover {
 	text-align: center;
 }
 
+#site-footer > * {
+	margin: 0.5em;
+}
+
 #site-footer a {
 	color: var(--footer-text-color);
 }
