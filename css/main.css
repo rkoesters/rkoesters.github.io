@@ -6,8 +6,6 @@
 
 /* Colors */
 :root {
-	--transparent: rgba(0, 0, 0, 0);
-
 	--shadow-color-1: rgba(0, 0, 0, 0.12);
 	--shadow-color-2: rgba(0, 0, 0, 0.20);
 
@@ -89,7 +87,6 @@ a.button {
 	height: auto;
 	padding: 0.1em 0.5em;
 	text-decoration: none;
-	-webkit-tap-highlight-color: var(--transparent);
 	-webkit-tap-highlight-color: transparent;
 }
 
