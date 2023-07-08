@@ -102,8 +102,9 @@ a.button:active {
 	color: var(--button-text-color-active);
 }
 
-.dot-separated > ::after { content: " • " }
-.dot-separated > :last-child::after { content: "" }
+.dot-separated > * { display: inline-block; }
+.dot-separated > ::after { content: " • "; }
+.dot-separated > :last-child::after { content: ""; }
 
 #site-header,
 #content-wrapper,
