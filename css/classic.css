@@ -45,6 +45,9 @@ a.button:hover {
 	color: #dddddd;
 }
 
+.dot-separated > ::after { content: " • " }
+.dot-separated > :last-child::after { content: "" }
+
 #site-header,
 #content-wrapper,
 #site-footer {
