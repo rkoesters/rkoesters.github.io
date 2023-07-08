@@ -263,6 +263,7 @@ a.button:active {
 
 #content audio,
 #content p > img,
+#content p > a > img,
 #content video {
 	display: block;
 	height: auto;
