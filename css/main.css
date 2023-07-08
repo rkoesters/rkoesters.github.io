@@ -94,6 +94,9 @@ a.button:hover {
 	color: var(--button-text-color-hover);
 }
 
+.dot-separated > ::after { content: " • " }
+.dot-separated > :last-child::after { content: "" }
+
 #site-header,
 #content-wrapper,
 #site-footer {
@@ -287,6 +290,7 @@ a.button:hover {
 #site-footer {
 	clear: both;
 	color: var(--footer-text-color);
+	font-size: smaller;
 	padding: 0.5em;
 	text-align: center;
 }
