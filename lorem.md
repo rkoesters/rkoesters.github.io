@@ -27,7 +27,8 @@ lacinia aliquam, ligula nisl rhoncus urna, in mollis massa ligula non nisi.
 Nulla luctus et enim fermentum vehicula. Morbi vehicula velit sed odio rutrum
 ullamcorper.
 
-![xkcd tar](https://i.imgur.com/ajiIIq3.png)
+![xkcd tar](https://imgs.xkcd.com/comics/tar.png)
+*Source: <https://xkcd.com/1168/>*
 
 Integer aliquet efficitur nisl ac tristique. Pellentesque at velit vitae ipsum
 porttitor condimentum. Donec vitae lobortis dolor. Praesent imperdiet neque sit
