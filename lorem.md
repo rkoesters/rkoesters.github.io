@@ -138,8 +138,10 @@ sit amet mollis ullamcorper.
 Buttons
 -------
 
-<a href="https://github.com/rkoesters" class="button">GitHub</a>
+<a href="#" class="button">Button</a>
+<a href="#" class="button">Button</a>
+<a href="#" class="button">Button</a>
 
-<a href="https://mastodon.social/@rkoesters" class="button">Mastodon</a>
-
-<a href="https://www.linkedin.com/in/ryankoesters" class="button">LinkedIn</a>
+* <a href="#" class="button">Button</a>
+* <a href="#" class="button">Button</a>
+* <a href="#" class="button">Button</a>
