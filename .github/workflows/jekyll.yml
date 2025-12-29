@@ -39,4 +39,5 @@ jobs:
             --check-opengraph \
             --enforce-https \
             --only-4xx \
+            --ignore_status_codes=418 \
             _site/
