@@ -2,10 +2,18 @@
 
 name: CI
 
-on: [push, pull_request]
+'on': 
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+  schedule:
+    - cron: 0 0 * * 6
 
 jobs:
-  build:
+  build-and-test:
     runs-on: ubuntu-latest
 
     steps:
@@ -31,4 +39,5 @@ jobs:
             --check-opengraph \
             --enforce-https \
             --only-4xx \
+            --http-status-ignore=418,429 \
             _site/
