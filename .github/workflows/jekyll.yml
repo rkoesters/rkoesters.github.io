@@ -39,5 +39,5 @@ jobs:
             --check-opengraph \
             --enforce-https \
             --only-4xx \
-            --http-status-ignore=418 \
+            --http-status-ignore=418,429 \
             _site/
