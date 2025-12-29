@@ -9,6 +9,8 @@ name: CI
   pull_request:
     branches:
       - main
+  schedule:
+    - cron: 0 0 * * 6
 
 jobs:
   build:
