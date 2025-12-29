@@ -13,7 +13,7 @@ name: CI
     - cron: 0 0 * * 6
 
 jobs:
-  build:
+  build-and-test:
     runs-on: ubuntu-latest
 
     steps:
